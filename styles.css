@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b49f77;
+  color: #6f5335;;
+  padding: 10px 20px;
+}
+
+.header-left p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.header-left h1 {
+  margin: 5px 0;
+}
+
+.header-right img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* RESUME BUTTON */
+.resume-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #b49f77;
+  border: 2px solid #b49f77;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.resume-button:hover {
+  background-color: #b49f77;
+  color: white;
+}
+
+/* SKILLS SECTION */
+#skill-chart {
+  width: calc(100vw - 2cm);
+  padding: 2rem 1rem;
+  background: #ffffff;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#skill-chart h2 {
+  color: #6f5335;
+  margin-bottom: 2rem;
+}
+
+.skill-row {
+  margin-bottom: 1.5rem;
+}
+
+.skill-row span {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #b49f77;
+}
+
+.bar {
+  background-color: #eee;
+  border-radius: 20px;
+  height: 24px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.fill.html    { width: 95%; background: #b49f77; }
+.fill.css     { width: 85%; background: #b49f77; }
+.fill.js      { width: 70%; background: #b49f77; }
+.fill.excel   { width: 75%; background: #b49f77; }
+.fill.figma   { width: 65%; background: #b49f77; }
+
+/* SECTIONS GENERAL */
+section {
+  padding: 1rem;
+  background: #ffffff;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  width: calc(100vw - 2cm);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* EDUCATION */
+#education h2 {
+  text-align: center;
+  color: #6f5335;;
+  margin-bottom: 2rem;
+}
+
+.education-subsection {
+  background-color: #fffefc;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #b49f77;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.education-subsection h3 {
+  margin-top: 0;
+  color: #6f5335;
+}
+
+.education-subsection p {
+  margin: 4px 0;
+  color: #333;
+}
+
+/* COURSE SECTION */
+#Course {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+#Course h2 {
+  text-align: center;
+  color: #6f5335;;
+}
+
+#Course ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+#Course li {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#Course li:hover {
+  background-color: #b49f77;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* CO-CURRICULAR */
+#co-curricular {
+  width: calc(100vw - 2cm);
+  margin: 2rem auto;
+  text-align: left;
+}
+
+#co-curricular h2 {
+  color: #6f5335;;
+  font-size: 28px;
+  margin-bottom: 1.5rem;
+}
+
+.activity-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-button {
+  background-color: #ffffff;
+  border: 2px solid #b49f77;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: left;
+  cursor: default;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.activity-button:hover {
+  background-color: #b49f77;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.activity-button h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.activity-button p {
+  margin: 0;
+  font-size: 14px;
+}
+
