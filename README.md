@@ -7,3 +7,7 @@ styles.css
 Calc.html
 style.css
 CALCULATOR.js
+
+#TASK3
+landingpage.html
+landingpagestyle.css
